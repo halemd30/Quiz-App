@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: orange;
+}
+
+.box {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.backgroundImg img {
+    width: 85vw;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.tallyBox ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    //border: 1px solid black;
+}
+
+.tally {
+    width: 25%;
+    text-align: center;
+    //border: 1px solid black;
+}
+
+.tally span {
+    padding-left: 7px;
+}
+
+.startBox {
+    width: 35%;
+    height: 20%;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 18%;
+    border-radius: 10px;
+}
+
+/* .button {
+    display: flex;
+    padding: 20% 0;
+} */
+
+.outerBox {
+    //border: 2px solid black;
+    //height: 35%;
+    width: 40%;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15%;
+}
+
+.innerBox {
+    border: 2px solid black;;
+    //margin-top: 40%;
+    //margin-left: 18%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.innerBox img {
+    width: 80%;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.wrongBox, .correctBox {
+    text-align: center;
+}
+
+.innerBox h3 {
+    text-align: center;
+    line-height: 24px;
+}
+
+.innerBox ul {
+    line-height: 30px;
+    list-style-type: radio;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button {
+    margin: auto;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    margin-top: 20%;
+}
+
+
