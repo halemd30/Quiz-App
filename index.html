@@ -8,139 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main role="main" class="container">
+    <main role="main" class="jsMain">
         
         <section class="startQuiz box">
             <header role="banner" class="header">
-                <h1>How Well Do You Know Calvin and Hobbes?</h1>
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
+                <h1>HOW WELL DO YOU KNOW<br> <span>Calvin and Hobbes?</span></h1>
+                <section class="jsTallyBox">
+                    
                 </section>
             </header>
             <section class="backgroundImg">
-                <section class="startBox innerBox">
-                    <button class="button" type="button">Start</button>
-                </section>
-                <img src="images/pounce.png" alt="Hobbes attacking Calvin">
-            </section>
-        </section>
+                <div id='jsDisplayBox' class='questionBox'>
 
-        <section class="mainQuiz box">
-            <header role="banner" class="header">
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
-                </section>
-            </header>
-            <section class="backgroundImg">
-                <div class="outerBox">
-                    <section class="mainBox innerBox">
-                        <h3>Who can we thank for creating Calvin and Hobbes?</h3>
-                        <ul>
-                            <li>Bill Watterson</li>
-                            <li>Charles Schulz</li>
-                            <li>Stan Lee</li>
-                            <li>Frank Miller</li>
-                        </ul>
-                    </section>
-                    <button class="submit" type="button">Submit</button>
                 </div>
                 <img src="images/pounce.png" alt="Hobbes attacking Calvin">
             </section>
         </section>
 
-        <section class="wrongAnswer box">
-            <header role="banner" class="header">
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
-                </section>    
-            </header>
-            <section class="backgroundImg">
-                <div class="outerBox">
-                    <section class="wrongBox innerBox">
-                        <h2>Wrong!</h2>
-                        <h3>Correct Answer:</h3>
-                        <p>Bill Watterson</p>
-                    </section>
-                    <button class="submit" type="button">Next</button>
-                </div>
-                <img src="images/pounce.png" alt="Hobbes attacking Calvin">
-            </section>
-        </section>
-
-        <section class="correctAnswer box">
-            <header role="banner" class="header">
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
-                </section>
-            </header>
-            <section class="backgroundImg">
-                <div class="outerBox">
-                    <section class="correctBox innerBox">
-                        <h2>Correct!</h2>
-                        <img src="images/dance.png">
-                    </section>
-                    <button class="submit" type="button">Next</button>
-                </div>
-                <img src="images/pounce.png" alt="Hobbes attacking Calvin">
-            </section>
-        </section>
-
-        <section class="failDisplay box">
-            <header role="banner" class="header">
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
-                </section>
-            </header>
-            <section class="backgroundImg">
-                <div class="outerBox">
-                    <section class="correctBox innerBox">
-                        <h3>You need to study up on your Calvin and Hobbes!</h3>
-                        <img src="images/mad.png">
-                        <p>Your score is 5/10</p>
-                    </section>
-                    <button class="submit" type="button">Restart</button>
-                </div>
-                <img src="images/pounce.png" alt="Hobbes attacking Calvin">
-            </section>
-        </section>
-
-        <section class="passDisplay box">
-            <header role="banner" class="header">
-                <section class="tallyBox">
-                    <ul>
-                        <li class="tally">Question:<span class="questionNumber">0</span>/10</li>
-                        <li class="tally">Score:<span class="score">0</span></li>
-                    </ul>
-                </section>
-            </header>
-            <section class="backgroundImg">
-                <div class="outerBox">
-                    <section class="correctBox innerBox">
-                        <h3>Congrats!</h3>
-                        <img src="images/happy.png">
-                        <p>Your score is 7/10</p>
-                    </section>
-                    <button class="submit" type="button">Restart</button>
-                </div>
-                <img src="images/pounce.png" alt="Hobbes attacking Calvin">
-            </section>
-        </section>
-    </main>
+    </main> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
