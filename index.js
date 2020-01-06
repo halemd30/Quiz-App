@@ -242,7 +242,7 @@ function displayResults() {
       <button type="button" id="tryAgain">Try Again!</button>
     </div>`;
   let fail =
-    `<div class="results">
+    `<div class="results fail">
       <h3>You need to study up on your Calvin and Hobbes!</h3>
       <img src="images/mad.png">
       <p>Your score is ${STORE.score}/${STORE.questions.length}</p>
