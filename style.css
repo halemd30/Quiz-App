@@ -106,8 +106,6 @@ h1 span {
 }
 
 #jsDisplayBox {
-    //border: 2px solid black;
-    //height: 35%;
     width: 50%;
     position: absolute;
     margin-top: 40%;
@@ -199,8 +197,16 @@ h1 span {
 
 @media screen and (min-width: 600px) {
     .backgroundImg img {
-        width: 85vw;
+        //width: 85vw;
+        width: 580px;
         border-radius: 10px;
+    }
+
+    #jsDisplayBox {
+        width: 250px;
+        position: absolute;
+        margin-top: 255px;
+        margin-left: 80px;
     }
 
     .tally {
@@ -208,14 +214,15 @@ h1 span {
     }
 
     .startBox {
-        width: 220px;
-        height: 200px;
-        margin-top: 40px;
-        margin-left: 25%;
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+        margin-left: 25px;
+        position: relative;
     }
 
     #startButton {
-        margin-top: 73px;
+        margin-top: 65px;
     }
 
     .results img {
@@ -227,12 +234,17 @@ h1 span {
 
     .innerBox img {
         width: 70%;
+        
     }
 
     .fail {
         width: 80%;
         margin-left: 30px;
         margin-top: -30px;
+    }
+
+    .box {
+        max-width: 580px;
     }
 }
 
