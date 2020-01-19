@@ -158,7 +158,6 @@ function updateOptions() {
       <label for="option${i+1}">${question.options[i]}</label> <br>`
       
       $('.jsOptions').append(nextOptions);
-      console.log(nextOptions);
     };
 }
 

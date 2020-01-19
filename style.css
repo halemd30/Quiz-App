@@ -27,7 +27,7 @@ h1 span {
 }
 
 .backgroundImg img {
-    width: 105vw;
+    width: 100vw;
     display: block;
     border: 2px solid black;
     margin: auto;
@@ -38,8 +38,6 @@ h1 span {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    //margin-right: 60px;
-    //border: 1px solid black;
 }
 
 .tally {
@@ -47,7 +45,6 @@ h1 span {
     text-align: left;
     padding-right: 20px;
     font-size: 17px;
-    //border: 1px solid black;
 }
 
 .startBox {
@@ -114,8 +111,6 @@ h1 span {
 
 .innerBox {
     border: 1.5px solid black;
-    //margin-top: 40%;
-    //margin-left: 18%;
     border-radius: 10px;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -197,7 +192,6 @@ h1 span {
 
 @media screen and (min-width: 600px) {
     .backgroundImg img {
-        //width: 85vw;
         width: 580px;
         border-radius: 10px;
     }
