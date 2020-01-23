@@ -199,7 +199,7 @@ function handleAnswerSubmitted() {
     const correctDisplay = 
       `<section class="correctBox innerBox">
         <h2>CORRECT!</h2>
-        <img src="images/dance.png">
+        <img src="images/dance.png" alt="Calvin and Hobbes dancing">
       </section>
       <button id="nextButton" class="submit" type="button">Next</button>`;
 
@@ -236,14 +236,14 @@ function displayResults() {
   let congrats = 
     `<div class="results">
       <h3>CONGRATS!</h3>
-      <img src="images/happy.png">
+      <img src="images/happy.png" alt="Calvin and Hobbes laughing">
       <p>Your score is ${STORE.score}/${STORE.questions.length}</p>
       <button type="button" id="tryAgain">Try Again!</button>
     </div>`;
   let fail =
     `<div class="results fail">
       <h3>You need to study up on your Calvin and Hobbes!</h3>
-      <img src="images/mad.png">
+      <img src="images/mad.png" alt="Calvin upset">
       <p>Your score is ${STORE.score}/${STORE.questions.length}</p>
       <button type="button" id="tryAgain">Try Again!</button>
     </div>`;
